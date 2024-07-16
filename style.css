@@ -34,7 +34,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: var(--Dark-Grey);
-    margin: 5rem 2rem 5rem 2rem;
+    margin: 5rem 2rem 2rem 2rem;
     padding: 2rem;
     border-radius: 1rem;
 }
@@ -92,6 +92,30 @@ footer {
 }
 
 
+@media (min-width: 600px){
+
+    main{
+        max-width: 35vh;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    .nd-section{
+        max-width: 85%;
+        margin: auto;
+    }
+
+    section a {
+        padding:  1rem 5rem 1rem 5rem;
+    }
+
+    footer {
+        font-size: 1rem;
+        margin-top: 1.5rem;
+    }
+   
+}
+
 @media (min-width: 1025px){
 
     main{
@@ -103,7 +127,7 @@ footer {
     }
 
     section a{
-        margin: 0 5rem 0 5rem;
+        padding:  1rem 8rem 1rem 8rem;
     }
 
     footer {
